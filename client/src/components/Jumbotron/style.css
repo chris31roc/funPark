@@ -1,0 +1,10 @@
+.jumbotron {
+  background-image: url("./cn.jpeg"); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px; 
+  width: 100%;
+  padding-top: 50; 
+  text-align: center
+}
