@@ -1,0 +1,8 @@
+.submitBtn {
+  background-color: #f39696;
+  margin-bottom: 8%;
+}
+
+.submitBtn:hover {
+  background-color: #62f75d;
+}
