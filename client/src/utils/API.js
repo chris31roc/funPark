@@ -3,7 +3,7 @@ import axios from "axios"
 export default {
     // Get book from google search 
     getGoogleSearchBooks: function(query) {
-        return axios.get("https://www.googleapis.com/books/v1/volumes?q=" + query)
+        return axios.get("https://developer.nps.gov/api/v1/parks?parkCode=" + query + "&api_key=F1WzG5P6ue6yaVx0LGhg9iEbvFjbGk2WQnDy3cAc" )
     },
 
     // Gets all books

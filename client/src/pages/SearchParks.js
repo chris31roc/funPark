@@ -19,6 +19,7 @@ class SearchBooks extends Component {
   //function to control the submit button of the search form 
   handleFormSubmit = event => {
     event.preventDefault();
+    console.log('search state',this.state.search)
     API.getGoogleSearchBooks(this.state.search)
       .then(res => {
         if (res.data.items === "error") {
@@ -26,22 +27,22 @@ class SearchBooks extends Component {
         }
         else {
           // store response
-          let results = res.data.items
-          //map through the array 
-          results = results.map(result => {
+          let results = res.data.data[0]
+            
             //store each book information in a new object 
-            result = {
-              key: result.id,
-              id: result.id,
-              title: result.volumeInfo.title,
-              authors: result.volumeInfo.authors,
-              description: result.volumeInfo.description,
-              image: result.volumeInfo.imageLinks.thumbnail,
-              link: result.volumeInfo.infoLink
-            }
-            return result;
-          })
-          this.setState({ books: results, search: ""})
+            var result = {
+              key: results.id,
+              id: results.id,
+              fullName: results.fullName,
+              states: results.states,
+              images: results.images.url,
+              description: results.description,
+              entranceFees: results.entranceFees,
+              url: results.url
+              }
+            
+            this.setState({ books: result, search: ""})
+            return result; 
         }
       })
       .catch(err => this.setState({ error: err.items }));
