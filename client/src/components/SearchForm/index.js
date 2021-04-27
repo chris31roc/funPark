@@ -11,7 +11,7 @@ const SearchForm = props => {
           value={props.search}
           type="text"
           name="searchPark"
-          placeholder="Search for a Park by Name"
+          placeholder="Search for a park by typing the first 4 letters of the park name (Ex: Yellowstone is YELL)"
           onChange={props.handleInputChange} />
       </div>
       <button type="submit" className="submitBtn btn" onClick={props.handleFormSubmit}>

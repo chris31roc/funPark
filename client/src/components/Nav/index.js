@@ -5,7 +5,7 @@ function Nav() {
     return (
         <nav className="navbar navbar-expand-lg">
             <a className="navbar-brand" href="/">
-                <h2 className="text-white">Fun Park</h2>
+                <h2 className="text-white">FunPark</h2>
             </a>
             <div id="navbarNav">
                 <ul className="navbar-nav">

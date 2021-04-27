@@ -30,7 +30,7 @@ class SearchBooks extends Component {
               id: results.id,
               fullName: results.fullName,
               states: results.states,
-              images: results.images.url,
+              images: results.images[0].url,
               description: results.description,
               entranceFees: results.entranceFees,
               url: results.url
