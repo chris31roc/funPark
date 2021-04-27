@@ -10,13 +10,13 @@ const SearchResult = props => {
         <div className="card-body">
           {/* <Row className="SearchResult row" id={book.results.fullName + "Card"} key={book.results.id}> */}
           <Row>
-            <Col size="2">
-              <img src={props.books.images} alt={props.books.fullName} />
+            <Col size="4">
+              <img width="350" src={props.books.images} alt={props.books.fullName} />
             </Col>
-            <Col size="10" className="pl-2">
+            <Col size="8" className="pl-2">
               <h3 className="bookTitle">{props.books.fullName}</h3>
               <h4 className="bookAuthor">{props.books.states}</h4>
-              <img src={props.books.images} alt={props.books.fullName} />
+              {/* <img width="200" src={props.books.images} alt={props.books.fullName} /> */}
               <p className="bookDescription pr-3">{props.books.description}</p>
             </Col>
           </Row>
