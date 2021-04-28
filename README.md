@@ -1,5 +1,5 @@
 # National Parks React App
-![Photo of Application](./public/assets/park-app-photo.png)
+![Photo of Application](Asset/park-app-photo.png)
 
 
 ## Link to Application
