@@ -3,7 +3,7 @@
 
 
 ## Link to Application
-[VIEW OUR APPLICATION HERE!]()
+[VIEW OUR APPLICATION HERE!](https://fun-park-project3.herokuapp.com/)
 
 
 ## Table of Contents
@@ -39,11 +39,11 @@ There is a plethora of information available from the National Park Serivce on t
 - Email: usman327820@gmail.com
 
 **Walter Leiva**
--Github: [wleivax](https://github.com/wleivax)
--Email: leivawalt@gmail.com
+- Github: [wleivax](https://github.com/wleivax)
+- Email: leivawalt@gmail.com
 
 
-## Technologies-Used
+## Technologies Used
 - React
 - Axios
 - Heroku
@@ -54,12 +54,12 @@ There is a plethora of information available from the National Park Serivce on t
 
 
 ## Setup
-This project can be found live at
+This project can be found live at (https://fun-park-project3.herokuapp.com/)
 To run this project locally, clone the GitHub repository and run
 ```
 npm install
 npm start
 ```
 This should launch your browser. If not, you can navigate to http://localhost:3000/ (preferably on Chrome).
-The project will run off of the database I have on Heroku. Otherwise, the backend repo can be found at (https://github.com/chris31roc/project3).
+The project will run off of the database on Heroku. Otherwise, the backend repo can be found at (https://github.com/chris31roc/project3).
 
