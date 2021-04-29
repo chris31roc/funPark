@@ -15,7 +15,7 @@
 
 ## Description
 There is a plethora of information available from the National Park Serivce on the parks throughout the United States. However, their website can be a tad bit difficult to navigate and get to a park you are interested in. There is also not an option to save parks you would like to visit.
-* Mark My Parks provides an easy to use interface where users can explore national parks across the United States. Users can also use the information and save preferences below to plan future trips:
+* FunPark provides an easy to use interface where users can explore national parks across the United States. Users can also use the information and save preferences below to plan future trips:
 * Find an overview of each park including a direct link to the National Park Service's webpage for that park
 * Save parks to their personal Bucket List or Visited Parks list
 * View parks only in their Bucket List or Visited Parks list
